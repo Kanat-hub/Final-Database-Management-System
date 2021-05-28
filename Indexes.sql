@@ -1,0 +1,13 @@
+create index Laptop_screen_index on Laptop(screen);
+CREATE INDEX Laptop_price_index ON Laptop(price);
+CREATE INDEX Printer_model_index ON Printer(model);
+CREATE INDEX Product_maker_index ON Product(maker);
+CREATE INDEX Product_type_index ON Product(type);
+CREATE INDEX PC_ram_index ON PC(ram);
+CREATE INDEX Product_type_maker_index ON Product(type, maker);
+CREATE INDEX Laptop_model_index ON Laptop(model);
+CREATE INDEX PC_model_price_DESC_index ON PC(model, price DESC);
+CREATE INDEX PC_price_DECS_index ON PC(price DESC);
+CREATE INDEX Printer_type_index ON Printer(type);
+CREATE INDEX Laptop_hd_index ON Laptop(hd);
+CREATE INDEX PC_speed_index ON PC(speed);
